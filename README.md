@@ -1,5 +1,4 @@
-#GMod Map Reloader
-
+# GMod Map Reloader
 This simple plugin will reload the last map that the server was using again after a restart of the server.
 This is done by simply writing the currently used Map to a file everytime a map gets loaded.
 If the Server restarts the loadmap.bsp must be loaded as the first map. If this specific Map is detected the script will laod the last map that was specified in the file again.
